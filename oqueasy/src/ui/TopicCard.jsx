@@ -6,6 +6,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import { Clock } from "lucide-react";
 
 export default function TopicCard({
   editPressed,
@@ -63,7 +64,10 @@ export default function TopicCard({
         </div>
       </CardContent>
       <CardFooter className="flex justify-between gap-2 pb-4">
-        <p className="text-sm text-gray-500">{info.last_edit}</p>
+        <div className="flex items-center justify-start gap-1">
+          <Clock size={18} className="text-gray-500" />
+          <p className="text-sm text-gray-500">{info.last_edit}</p>
+        </div>
         <div className="space-x-2">
           <buttton
             onClick={() => {
