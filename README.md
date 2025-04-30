@@ -11,25 +11,14 @@ FlashLearn is a modern, interactive flashcard application built to help users cr
   - Add rich content to your cards with text formatting
   - Tag and categorize cards for better organization
   - Search and filter functionality
-  - Grid and list view options
 
 - **Study Modes**
   - Standard flashcard review
-  - Self-assessment with "Correct", "Hard", and "Incorrect" tracking
-  - Spaced repetition algorithm for optimized learning
-  - Quiz generation from existing flashcard decks
-
-- **Progress Tracking**
-  - Visual progress indicators for each deck
-  - Accuracy and completion rate metrics
-  - Study session history and statistics
-  - Performance analytics dashboard
+  - Self-assessment with "Correct", and "Incorrect" tracking
 
 - **User Experience**
   - Responsive design for desktop and mobile devices
   - Intuitive and clean user interface
-  - Dark/light mode toggle
-  - Keyboard shortcuts for efficient navigation
 
 ## 🛠️ Technology Stack
 
@@ -38,8 +27,6 @@ FlashLearn is a modern, interactive flashcard application built to help users cr
 - **UI Components**: [shadcn/ui](https://ui.shadcn.com/) - Re-usable components built with Radix UI and Tailwind CSS
 - **Styling**: [Tailwind CSS](https://tailwindcss.com/) - A utility-first CSS framework
 - **Icons**: [Lucide React](https://lucide.dev/) - Beautiful & consistent icons
-- **State Management**: React Hooks and Context API
-- **Data Persistence**: Local Storage (with future plans for backend integration)
 
 ## 📋 Prerequisites
 
@@ -50,7 +37,7 @@ FlashLearn is a modern, interactive flashcard application built to help users cr
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/flashlearn.git
+   git clone https://github.com/your-username/SkillSet.git
    cd SkillSet
    cd oqueasy
    ```
